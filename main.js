@@ -336,6 +336,10 @@ const toggleGravity = () => {
     isAntiGravity = !isAntiGravity;
     playGravitySound(isAntiGravity);
 
+    // Audio & Debug Logging
+    console.log(`Gravity Toggled: ${isAntiGravity ? 'ANTI-GRAVITY' : 'NORMAL'}`);
+    console.log(`New Gravity Vector:`, isAntiGravity ? CONFIG.antiGravity : CONFIG.normalGravity);
+
     // Camera shake effect
     document.body.classList.add('shake');
     setTimeout(() => document.body.classList.remove('shake'), 500);
