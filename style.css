@@ -291,3 +291,14 @@ input[type=range]::-webkit-slider-runnable-track {
 .github-link:hover svg {
     fill: black;
 }
+
+/* Footer text */
+.footer {
+    position: absolute;
+    bottom: 1rem;
+    left: 2rem;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    opacity: 0.6;
+    pointer-events: none;
+}
