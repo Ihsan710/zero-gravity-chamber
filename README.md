@@ -1,5 +1,7 @@
 # 🌌 Zero-Gravity Chamber
 
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen.svg)](https://zero-gravity-chamber.vercel.app)
+
 A futuristic, interactive 3D web experience that simulates a zero-gravity environment directly in the browser. Built with **Three.js** for rendering and **Cannon-es** for real-time physics, this project demonstrates advanced frontend development skills including 3D graphics, physics simulations, and procedural audio.
 
 ![Zero Gravity Preview](https://raw.githubusercontent.com/Ihsan710/Zero-Gravity-Chamber/main/preview.jpg)
